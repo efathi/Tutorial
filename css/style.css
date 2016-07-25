@@ -1,0 +1,32 @@
+@media (max-width: 767px) {
+	.img-responsive{
+		max-width: 50%;
+		min-width: 300px;
+	}
+	
+}
+.card 
+{
+	text-align: center;
+}
+.card.add-animation
+ {
+    opacity: 0;
+    -webkit-transition: all 0.7s ease-out 0.6s;
+    -moz-transition: all 0.7s ease-out 0.6s;
+    -o-transition: all 0.7s ease-out 0.6s;
+    -ms-transition: all 0.7s ease-out 0.6s;
+    transition: all 0.7s ease-out 0.6s;
+  }
+  .card.add-animation.animation-1
+ {
+    -webkit-transition: all 0.7s ease-out 0.1s;
+    -moz-transition: all 0.7s ease-out 0.1s;
+    -o-transition: all 0.7s ease-out 0.1s;
+    -ms-transition: all 0.7s ease-out 0.1s;
+    transition: all 0.7s ease-out 0.1s;
+  }
+  .card.add-animation.animate
+  {
+    opacity: 1;
+  }
